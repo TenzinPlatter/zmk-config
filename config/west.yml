@@ -15,8 +15,8 @@ manifest:
       revision: main 
     - name: zmk
       remote: urob
-      revision: main
-      import: app/west.yml
+      # revision: main
+      # import: app/west.yml
     - name: zmk-helpers
       remote: urob
       revision: main
