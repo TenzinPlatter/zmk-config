@@ -15,8 +15,14 @@ manifest:
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
+    - name: urob
+      url-base: https://github.com/urob
+    - zmk-helpers:
+      remote: urob
+      revision: main
     - name: zmk
-      remote: zmkfirmware
+      # remote: zmkfirmware
+      remote: urob
       revision: main
       import: app/west.yml
   self:
