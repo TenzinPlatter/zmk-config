@@ -21,8 +21,8 @@ manifest:
       remote: urob
       revision: main
     - name: zmk
-      remote: zmkfirmware
-      # remote: urob
+      # remote: zmkfirmware
+      remote: urob
       revision: main
       import: app/west.yml
   self:
