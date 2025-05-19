@@ -112,7 +112,7 @@ layers:
   - RGB EFR
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
+  - {t: '$$mdi:backspace$$', type: backspace}
   - RGB BRD
   - Ins
   - F11
