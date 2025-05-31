@@ -47,6 +47,15 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_hm_lshift {
+            bindings = <&kp LSHIFT>;
+            key-positions = <27 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
